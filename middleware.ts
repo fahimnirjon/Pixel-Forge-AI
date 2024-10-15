@@ -1,7 +1,7 @@
 import { authMiddleware } from "@clerk/nextjs";
  
 export default authMiddleware({
-    publicRoutes: ['/']
+    publicRoutes: ['/pixel-forge04.vercel.app']
 });
  
 export const config = {
